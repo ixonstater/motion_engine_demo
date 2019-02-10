@@ -1,0 +1,19 @@
+const appConsts = {
+  BOX_TOP: 0,
+  BOX_RIGHT: 1,
+  BOX_BOTTOM: 2,
+  BOX_LEFT: 3,
+
+  WORLD_WIDTH_PX: 500,
+  WORLD_HEIGHT_PX: 500,
+
+  INITIAL_JUMP_VELOCITY: -1.5,
+  GRAVITY: 0.05,
+  RUN_VELOCITY: 0.7,
+
+  CLOCKWISE: 0,
+  COUNTERCLOCKWISE: 1,
+  BAD_INTERSECTION: 2,
+}
+
+export default appConsts
